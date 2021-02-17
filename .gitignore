@@ -1,0 +1,7 @@
+*.sublime-project
+*.sublime-workspace
+/gpm-client/settings.php
+/gpm-client/cache/
+/gpm-server/settings.php
+/gpm-server/packages/
+/gpm-server/sftp-config.json
