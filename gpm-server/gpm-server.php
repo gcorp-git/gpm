@@ -32,7 +32,7 @@ class GPMServer {
 	/* private */
 
 	private static function _get_info( string $name ) {
-		$file_info = HOME . "packages/{$name}/info.php";
+		$file_info = HOME . "packages/{$name}/{$name}.php";
 		$file_zip = HOME . "packages/{$name}/{$name}.zip";
 
 		self::_check_file( $file_info );
